@@ -1,3 +1,7 @@
 firmwares/conv.py
 firmwares/notes0x49.txt
 firmwares/titleID.txt
+*.cia
+firmwares/3DNUS.exe
+*.bin
+firmwares/make_cdn_cia.exe
