@@ -1,7 +1,7 @@
 description: Patch AGB_FIRM signatures
 
 patches:
-    patch.bin:
+    signatures.bin:
         type: AGB_FIRM
         versions:
             o3ds:

@@ -1,6 +1,6 @@
 .arm.little
 
-.create "patch.bin", 0
+.create "signatures.bin", 0
 .thumb
 
 	mov r0, #0

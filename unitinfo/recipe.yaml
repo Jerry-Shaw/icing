@@ -5,15 +5,13 @@ patches:
         type: NATIVE_FIRM
         versions:
             o3ds:
-                0x38: 0x801B25C
-                0x4B: 0x801B25C
-                0x4C: 0x801B25C
-                0x49: 0x801B25C
-                0x50: 0x801B25C
+                0x38: 0x0801B25C
+                0x4B: 0x0801B25C
+                0x4C: 0x0801B25C
+                0x49: 0x0801B25C
+                0x50: 0x0801B25C
 
             n3ds:
-                0x49: 0xFA27AF69 
-                # N3DS offset is not valid obviously
-                # Just a placeholder until someone with a n3DS comes along
-                # Or I get some dumps
-                # Or somebody graciously donates a n3DS 'For Science™'
+                0x04: 0x0808F794
+                0x1B: 0x0801B1A4
+                0x1F: 0x0801B1A4
