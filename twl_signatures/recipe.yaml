@@ -1,0 +1,20 @@
+description: Patch TWL_FIRM signatures
+
+patches:
+    sigpatch.bin:
+        type: TWL_FIRM
+        versions:
+            o3ds:
+                0x16: 0x080238C0
+
+    rsa.bin:
+        type: TWL_FIRM
+        versions:
+            o3ds:
+                0x16: 0x0803220E
+
+    sha.bin:
+        type: TWL_FIRM
+        versions:
+            o3ds:
+                0x16: 0x08033656
