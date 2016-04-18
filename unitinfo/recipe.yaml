@@ -1,4 +1,4 @@
-description: Enable UNITINFO patch
+description: Use dev UNITINFO
 
 patches:
     patch.bin:

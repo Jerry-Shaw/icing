@@ -1,4 +1,4 @@
-description: Patch TWL_FIRM signatures
+description: Patch TWL_FIRM signatures (only custom DSiWare)
 
 patches:
     sigpatch.bin:
