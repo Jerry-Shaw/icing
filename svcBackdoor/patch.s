@@ -7,17 +7,17 @@
 .close
 
 .create "patch2.bin", 0
-
-	.word 0x0FE3CD10
-	.word 0x28E3811C
-	.word 0x00E28110
-	.word 0x00E59120
-	.word 0x02E92260
-	.word 0x30E1A0D0
-	.word 0x03E12FFF
-	.word 0x00E8BD00
-	.word 0x11E1A0D0
-	.halfword 0x2FFF
-	.byte 0xE1
+	// bic r1, sp, IMM - We don't actually specify the immediate here.
+	.byte 0x10
+	.halfword 0xE3CD
+	orr r1, r1, #0xf00
+	add r1, r1, #0x28
+	ldr r2, [r1]
+	stmdb r2!, {sp, lr}
+	mov sp, r2
+	blx r0
+	pop {r0, r1}
+	mov sp, r0
+	bx r1
 
 .close
