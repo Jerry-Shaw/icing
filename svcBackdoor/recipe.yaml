@@ -1,0 +1,22 @@
+description: Enable svcBackdoor in 11.0+ FIRM
+
+patches:
+    patch1.bin:
+        type: NATIVE_FIRM
+        versions:
+            o3ds:
+                0x52: 0x1FF82514
+
+            #n3ds:
+                #0x21: 0x00000000
+                # Obviously stubbed
+
+    patch2.bin:
+        type: NATIVE_FIRM
+        versions:
+            o3ds:
+                0x52: 0x1FFADB29
+
+            #n3ds:
+                #0x21: 0x00000000
+                # Obviously stubbed
