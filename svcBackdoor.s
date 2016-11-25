@@ -2,7 +2,7 @@
 
 .create "svcBackdoor1.bin", 0
 
-	.word 0xFFFF0B28
+	.ascii "addr"
 
 .close
 
