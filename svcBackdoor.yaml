@@ -22,11 +22,11 @@ patches:
                 0x21:
                     offset: 0x1FF824F8
                     variables:
-                        - 0xFFFF0710
+                        - 0xFFFF0C68
                 0x26:
                     offset: 0x1FF824F8
                     variables:
-                        - 0xFFFF0710
+                        - 0xFFFF0C68
 
     svcBackdoor2.bin:
         type: NATIVE_FIRM
@@ -36,5 +36,5 @@ patches:
                 0x52: 0x1FFADB28
 
             n3ds:
-                0x21: 0x1FFAD710
-                0x26: 0x1FFAD710
+                0x21: 0x1FFAEC68
+                0x26: 0x1FFAEC68
