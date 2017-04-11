@@ -9,11 +9,91 @@ patches:
 
         versions:
             o3ds:
-                0x5C:
+                0x00:
                     offset: 0x1FF82514
                     variables:
                         - 0xFFFF0B28
-                0x56:
+                0x02:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x09:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x0B:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x0F:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x18:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x1D:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x1F:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x25:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x26:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x29:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x2A:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x2E:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x30:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x37:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x38:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x3F:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x40:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x49:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x4B:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x4C:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x50:
                     offset: 0x1FF82514
                     variables:
                         - 0xFFFF0B28
@@ -21,8 +101,56 @@ patches:
                     offset: 0x1FF82514
                     variables:
                         - 0xFFFF0B28
+                0x56:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x58:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x5C:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
+                0x5E:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
             n3ds:
-                0x2D:
+                0x03:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
+                0x04:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
+                0x0B:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
+                0x0F:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
+                0x18:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
+                0x1A:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
+                0x1B:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
+                0x1F:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
+                0x21:
                     offset: 0x1FF824F8
                     variables:
                         - 0xFFFF0C68
@@ -30,7 +158,15 @@ patches:
                     offset: 0x1FF824F8
                     variables:
                         - 0xFFFF0C68
-                0x21:
+                0x28:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
+                0x2D:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
+                0x2E:
                     offset: 0x1FF824F8
                     variables:
                         - 0xFFFF0C68
@@ -39,10 +175,44 @@ patches:
         type: NATIVE_FIRM
         versions:
             o3ds:
-                0x5C: 0x1FFADB28
-                0x56: 0x1FFADB28
+                0x00: 0x1FFADB28
+                0x02: 0x1FFADB28
+                0x09: 0x1FFADB28
+                0x0B: 0x1FFADB28
+                0x0F: 0x1FFADB28
+                0x18: 0x1FFADB28
+                0x1D: 0x1FFADB28
+                0x1F: 0x1FFADB28
+                0x25: 0x1FFADB28
+                0x26: 0x1FFADB28
+                0x29: 0x1FFADB28
+                0x2A: 0x1FFADB28
+                0x2E: 0x1FFADB28
+                0x30: 0x1FFADB28
+                0x37: 0x1FFADB28
+                0x38: 0x1FFADB28
+                0x3F: 0x1FFADB28
+                0x40: 0x1FFADB28
+                0x49: 0x1FFADB28
+                0x4B: 0x1FFADB28
+                0x4C: 0x1FFADB28
+                0x50: 0x1FFADB28
                 0x52: 0x1FFADB28
+                0x56: 0x1FFADB28
+                0x58: 0x1FFADB28
+                0x5C: 0x1FFADB28
+                0x5E: 0x1FFADB28
             n3ds:
-                0x2D: 0x1FFAEC68
-                0x26: 0x1FFAEC68
+                0x03: 0x1FFAEC68
+                0x04: 0x1FFAEC68
+                0x0B: 0x1FFAEC68
+                0x0F: 0x1FFAEC68
+                0x18: 0x1FFAEC68
+                0x1A: 0x1FFAEC68
+                0x1B: 0x1FFAEC68
+                0x1F: 0x1FFAEC68
                 0x21: 0x1FFAEC68
+                0x26: 0x1FFAEC68
+                0x28: 0x1FFAEC68
+                0x2D: 0x1FFAEC68
+                0x2E: 0x1FFAEC68
