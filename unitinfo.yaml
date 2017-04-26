@@ -5,7 +5,7 @@ patches:
         type: NATIVE_FIRM
         versions:
             n3ds:
-                0x2E: 0x0808F794
+                0x2F: 0x0808F794
                 0x2D: 0x0808F794
                 0x28: 0x0808F794
                 0x26: 0x0808F794
