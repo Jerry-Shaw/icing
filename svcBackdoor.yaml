@@ -9,7 +9,7 @@ patches:
 
         versions:
             n3ds:
-                0x2E:
+                0x2F:
                     offset: 0x1FF824F8
                     variables:
                         - 0xFFFF0C68
@@ -174,7 +174,7 @@ patches:
         type: NATIVE_FIRM
         versions:
             n3ds:
-                0x2E: 0x1FFAEC68
+                0x2F: 0x1FFAEC68
                 0x2D: 0x1FFAEC68
                 0x28: 0x1FFAEC68
                 0x26: 0x1FFAEC68
